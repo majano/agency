@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!--
-        Theme Name: M Landing
-        Theme URI:
-        Author: Majano
-        Author URI: http://majano.github.io/majano
-        Description: One Page Template
-        Tags: one page, multi page, multipurpose, parallax, creative, html5
-    -->
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Page Template</title>
@@ -16,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body id="home"> 
-
+<body> 
+    
     <div class="header">
         <div class="container flex">
             <div class="logo">
@@ -27,9 +19,9 @@
             </div>
             <div class="nav">
                 <ul class="flex">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#work">Work</a></li>
+                    <li><a href="#home" class="active">Home</a></li>                    
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
                     <li><a href="#team">Team</a></li>                    
                 </ul>
             </div>
@@ -39,20 +31,23 @@
         </div>
     </div>
  
-    <div class="page ">
+    <div class="page">
 
-        <div class="header_wrap container flex">
-            <div>
-                <h1>Have a project in mind?</h1>
-                <p>Magni, aliquam nemo, eaque animi nisi molestiae incidunt illum provident porro earum libero doloribus quia?</p>
-                <a href="#" class="btn">Let's work together</a>
+        <div id="home" class="section">
+            <div class="header_wrap container flex">
+                <div>
+                    <small class="sub_title">Start Up Digital Agency</small>
+                    <h1>Have a project in mind?</h1>
+                    <p>Magni, aliquam nemo, eaque animi nisi molestiae incidunt illum provident porro earum libero doloribus quia?</p>
+                    <a href="#" class="btn">Let's work together</a>
+                </div>
+                <div>
+                    <img src="img/image1.png" alt="">
+                </div>
             </div>
-            <div>
-                <img src="img/team.svg" alt="">
-            </div>
-        </div>
+        </div>        
 
-        <div id="services" class="services_wrap container">
+        <div id="services" class="services_wrap container section">
             <h2>Best Services</h2>
             <div class="flex">
                 <div>
@@ -78,10 +73,10 @@
             </div>
         </div>
 
-        <div class="section_content container">
-            <div class="flex">
+        <div class="section_content">
+            <div class="container flex">
                 <div>
-                    <img src="img/59890.jpg" alt="">
+                    <img src="img/image2.png" alt="">
                 </div>
                 <div>
                     <small class="sub_title">About Us</small>
@@ -91,30 +86,29 @@
             </div>
         </div>
 
-        <div id="work" class="section_content container">
-            <div class="flex">                
+        <div id="work" class="section_content section">
+            <div class="container flex">                
                 <div>
                     <small class="sub_title">Our Work</small>
-                    <h2>Projects created with passion</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dignissimos dolorem excepturi obcaecati. Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat?</p>
+                    <h2>Created with passion</h2>                    
                 </div>
                 <div>
-                    <img src="img/5439.jpg" alt="">
+                    <p><strong>Websites</strong>, <strong>Ecommerce</strong>, <strong>Branding</strong>. Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat?</p>
                 </div>
             </div>
-            <div class="work_content">
+            <div class="work_content container">
                 <div class="flex">
-                    <div><img src="img/apple-devices-books-business-coffee-572056.jpg" alt=""></div>
-                    <div><img src="img/business-computer-contemporary-desk-218863.jpg" alt=""></div>
-                    <div><img src="img/people-working-in-front-of-computer-3182763.jpg" alt=""></div>
-                    <div><img src="img/woman-in-white-long-sleeve-shirt-holding-silver-tablet-4473355.jpg" alt=""></div>
-                    <div><img src="img/red-oh-la-la-light-1735658.jpg" alt=""></div>
-                    <div><img src="img/photo-of-woman-using-laptop-3747417.jpg" alt=""></div>
+                    <div><img id="project_1" data-title="Project Name 1" data-desc="Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/apple-devices-books-business-coffee-572056.jpg" alt=""></div>
+                    <div><img id="project_2" data-title="Project Name 2" data-desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/business-computer-contemporary-desk-218863.jpg" alt=""></div>
+                    <div><img id="project_3" data-title="Project Name 3" data-desc="Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/people-working-in-front-of-computer-3182763.jpg" alt=""></div>
+                    <div><img id="project_4" data-title="Project Name 4" data-desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/woman-in-white-long-sleeve-shirt-holding-silver-tablet-4473355.jpg" alt=""></div>
+                    <div><img id="project_5" data-title="Project Name 5" data-desc="Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/red-oh-la-la-light-1735658.jpg" alt=""></div>
+                    <div><img id="project_6" data-title="Project Name 6" data-desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam ad vero tempora aperiam. Excepturi delectus deleniti eaque quasi corrupti voluptas accusamus dolorem, at placeat." src="img/photo-of-woman-using-laptop-3747417.jpg" alt=""></div>
                 </div>
             </div> 
         </div> 
 
-        <div id="team" class="team_content">
+        <div id="team" class="team_content section">
             <div class="container">
                 <div class="content">
                     <h2>The Team</h2>
@@ -126,10 +120,10 @@
                         <h4>Nath Berkowitzs</h4>
                         <p>CEO and Co-founder</p>
                         <div class="social_acc flex">
-                            <a href="#" target=""><img src="img/linkedin.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/instagram-sketched.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/facebook.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/twitter.svg" alt=""></a>
+                            <a href="#" target="_blanks"><img src="img/linkedin.svg" alt=""></a>
+                            <a href="#" target="_blanks"><img src="img/instagram-sketched.svg" alt=""></a>
+                            <a href="#" target="_blanks"><img src="img/facebook.svg" alt=""></a>
+                            <a href="#" target="_blanks"><img src="img/twitter.svg" alt=""></a>
                         </div>
                     </div>
                     <div>
@@ -137,10 +131,10 @@
                         <h4>Charles Xavier</h4>
                         <p>IT Manager</p>
                         <div class="social_acc flex">
-                            <a href="#" target=""><img src="img/linkedin.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/instagram-sketched.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/facebook.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/twitter.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/linkedin.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/instagram-sketched.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/facebook.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/twitter.svg" alt=""></a>
                         </div>
                     </div>
                     <div>
@@ -148,10 +142,10 @@
                         <h4>Kath Kant</h4>
                         <p>Project Manager</p>
                         <div class="social_acc flex">
-                            <a href="#" target=""><img src="img/linkedin.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/instagram-sketched.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/facebook.svg" alt=""></a>
-                            <a href="#" target=""><img src="img/twitter.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/linkedin.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/instagram-sketched.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/facebook.svg" alt=""></a>
+                            <a href="#" target="_blank"><img src="img/twitter.svg" alt=""></a>
                         </div>
                     </div>
                 </div> 
@@ -172,14 +166,14 @@
         <div class="footer">
             <div class="container flex">
                 <div>
-                    <h6>Digital Agency Landing Page</h6>
+                    <h6>Digital Agency One Page</h6>
                     <small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small>
                 </div>
                 <div class="social_acc flex">
-                    <a href="#" target=""><img src="img/linkedin.svg" alt=""></a>
-                    <a href="#" target=""><img src="img/instagram-sketched.svg" alt=""></a>
-                    <a href="#" target=""><img src="img/facebook.svg" alt=""></a>
-                    <a href="#" target=""><img src="img/twitter.svg" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/linkedin.svg" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/instagram-sketched.svg" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/facebook.svg" alt=""></a>
+                    <a href="#" target="_blank"><img src="img/twitter.svg" alt=""></a>
                 </div>                
             </div>
         </div>
@@ -202,6 +196,19 @@
 
                 <button type="submit" class="btn">Send Message</button>
             </form>
+        </div>
+
+        <div class="modal project_profile">
+            <a href="#" class="close">Close</a>
+            <div class="content flex">
+                <div class="picture">
+                    <img src="" alt="">
+                </div>
+                <div class="description">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
         </div>
     </div>
     
